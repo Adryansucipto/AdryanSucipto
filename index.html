@@ -1,216 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Adryan Sucipto</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Adryan Sucipto</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/Free_Sample_By_Wix-removebg-preview.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Adryan Sucipto</title>
+</head>
+<body>
+
+    <div class="header" id="home">
+
+        <nav class="navbar navbar-expand-lg navbar-dark position-fixed" id="navbar">
+            <a class="logo navbar-brand text-white" href="#home" alt="Logo" id="logo">
+                <img src="images/Free_Sample_By_Wix-removebg-preview.png" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                </ul>
+            
+            <button id="toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interest&projects">Interest & Projects</a>
+                </li>
+                
+              </ul>
             </div>
         </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
+
+        <div class="banner">
+            <div class="app-text">
+              <h1 class="animated-text"></h1>
+              <div class="primary-btn">
+                <div class="btn-group">
+                  <div class="play-btn">
+                    <div class="play-btn-inner">
+                      <a href="#about">
+                        <i class="fa-solid fa-play"></i>
+                        <span>Watch Resume</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        <div class="social-icons position-fixed">
+            <ul>
+              <li><a href="mailto:adryansucipto@gmail.com" target="_blank" class="social-iconsLogo"><i class="fa-regular fa-envelope"></i></a></li>
+              <li><a href="https://www.facebook.com/hosea.sucipto/" target="_blank" class="social-iconsLogo"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/adryan-sucipto-17683b171" target="_blank" class="social-iconsLogo"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/adryansucipto/" target="_blank"><i class="fa fa-instagram" class="social-iconsLogo"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="copy-right position-fixed">
+            <p>&copy; Adryan Sucipto 2023</p>
+        </div>
+
+    </div>
+
+    <div>
+        <!-- About-->
+        
+        <div class="page d-flex justify-content-center align-items-center flex-column m-5" id="about">
+            <h2 class="m-5" id="titleSection">About</h2>
+            <div class="container d-flex justify-content-center flex-row">
+                <img src="images/AdryanSucipto.jpg" class="img-fluid w-25" alt="">
+                
+                <div class="d-flex justify-content-center flex-column mx-3">
                     <h1 class="mb-0">
                         Adryan
-                        <span class="text-primary">Sucipto</span>
+                        <span  style="color: #c32865;font-size: 2.5rem;">Sucipto</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div>
                         Jalan Gurun Dalam No 1 · Padang, Sumatra Barat ·
-                        <a href="mailto:adryansucipto@gmail.com">adryansucipto@gmail.com</a>
+                        <a href="mailto:adryansucipto@gmail.com" style="color: #c32865;">adryansucipto@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Hello everyone, my name is Adryan Sucipto. You can call me Adryan or Yan.
-                        Currently, I am still studying at Bina Nusantara University where I majored in computer science with streamed Database. I'm a fast learner and can get along with others.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/adryan-sucipto-17683b171"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="mailto:adryansucipto@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                        <a class="social-icon" href="https://www.instagram.com/adryansucipto/"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/hosea.sucipto/"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+                    <hr>
+                    <p class="lead mb-3" id="text">Currently, I'm working as Full Stack Developer at PT. Bank Sinarmas ,Tbk. I'm also still studying at Bina Nusantara University where I majored in computer science with streamed Database. I'm a fast learner and can get along with others.
+                    </p>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Programmer Intern At PT Bank Sinarmas Tbk</h3>
-                            <div class="subheading mb-3">Full Stack Developer</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - Present</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Student Activity</h3>
-                            <div class="subheading mb-3">Tutor BSLC 2020/2021 Even Semester Calculus</div>
-                            
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2021 - June 2021</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Student Activity</h3>
-                            <div class="subheading mb-3">Student Teaching TFI</div>
-                            
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2019 - December 2019</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Bina Nusantara</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Database Track</div>
-                            <p>GPA: 3.65</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - Present</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-figma"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-java"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-laravel"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-php"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-bootstrap"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-r-project"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Database Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Back End Engineer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Waterfall Method, Agile, & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>My favorite part of technology is making website. In Website, you can practice your imagination to make some problems can handle in on one website based application. That's why I like web programming but I still far from that. I need to enrich my skills in World of Technology and want to advance my programming knowledge.
-                       Beside of that, I like making some system using Database Design which I learned it from Bina Nusantara University. I like to query and study about Data.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Analysis Data Jumlah Penduduk Berdasarkan Agama Per Kelurahan Tahun 2020 using Google Data Studio
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Ybike Website Only html, css, and javascript
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Prototype PWNI Application File Manager using Figma
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Prototype Tembak Jenggo Desktop Game using Figma
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            To Do List Website only html, css, and javascript
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Research Effectiveness of Using Online Meeting Application on Daily Activity
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            ECommerce Store Website Application using PHP
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Project R analytics using R
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            Recipia Website Application Using Laravel Framework
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            MbWekCenter Website Application Using Laravel Framework
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
-                            GadgetCheck Mobile Application Using Android Studio and Java
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            </div>
+            
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        <hr class="m-0" />
+        <!-- Experience-->
+
+        <div class="page d-flex justify-content-center flex-column text-white" id="experience">
+            <h2 class="m-5 text-center" id="titleSection">Experience</h2>
+            <div class="m-3 d-flex flex-row justify-content-center align-items-center" id="rowExperience">
+
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0" id="titleExperience">Full-Time Junior Developer At PT Bank Sinarmas Tbk</h3>
+                        <div class="subheading mb-3">Full Stack Developer</div>
+                        <p>In Division Micro & Core Loan From IT Internal Business Process Application</p>
+                        <span class="text-primary">April 2023 - Present</span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0" id="titleExperience">Contract Junior Developer At PT Bank Sinarmas Tbk</h3>
+                        <div class="subheading mb-3">Full Stack Developer</div>
+                        <p>In Division Micro & Core Loan From IT Internal Business Process Application</p>
+                        <span class="text-primary">November 2022 - April 2023</span>
+                    </div>
+                </div>
+
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0" id="titleExperience">Programmer Intern At PT Bank Sinarmas Tbk</h3>
+                        <div class="subheading mb-3">Full Stack Developer</div>
+                        <p>In Division Micro & Core Loan From IT Internal Business Process Application</p>
+                        <span class="text-primary">November 2022 - April 2023</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-3 d-flex flex-row justify-content-center align-items-center" id="rowExperience">
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0" id="titleExperience">Programmer Intern At PT Bank Sinarmas Tbk</h3>
+                        <div class="subheading mb-3">Full Stack Developer</div>
+                        <p>In Division Micro & Core Loan From IT Internal Business Process Application</p>
+                        <span class="text-primary">March 2022 - February 2023</span>
+                    </div>
+                </div>
+    
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0" id="titleExperience">Student Activity</h3>
+                        <div class="subheading mb-3">Tutor BSLC 2020/2021 Even Semester Calculus</div>
+                        <p>In Bina Nusantara University as Volunteer Calculus</p>
+                        <span class="text-primary">March 2021 - June 2021</span>
+                    </div>
+                </div>
+    
+
+    
+                <div class="col-3 w-100 h-100" id="cardExperience">
+                    <div class="flex-row-1" id="subExperience">
+                        <h3 class="mb-0 " id="titleExperience">Student Activity</h3>
+                        <div class="subheading mb-3">Student Teaching TFI</div>
+                        <p>In Bina Nusantara University as Volunteer Primary School</p>
+                        <span class="text-primary">October 2019 - December 2019</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Education-->
+        <div class="page d-flex justify-content-center flex-column text-dark" id="education">
+            <h2 class="m-5 text-center" id="ti tleSection">Education</h2>    
+            <div class="m-3 d-flex flex-row justify-content-center align-items-center" id="rowEducation">
+                <div class="flex-grow-1 m-3">
+                    <div id="tiny-slider" class="carousel slide border-3" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#tiny-slider" data-slide-to="0" class="active"></li>
+                          <li data-target="#tiny-slider" data-slide-to="1"></li>
+                          <li data-target="#tiny-slider" data-slide-to="2"></li>
+                          <li data-target="#tiny-slider" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/binusLogo.png" alt="Slide 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/binusAnggrek.jpeg" alt="Slide 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/binusAlsut.jfif" alt="Slide 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/binusBekasi.jpeg" alt="Slide 3">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#tiny-slider" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#tiny-slider" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            
+                <div class="flex-grow-1 m-3">
+                    <h3 class="mb-0">University of Bina Nusantara</h3>
+                    <div class="subheading mb-3" id="text">Bachelor of Science</div>
+                    <div id="text">Computer Science - Database Track</div>
+                    <p id="text">GPA: 3.69</p>
+                </div>
+                <div class="flex-shrink-0 m-3"><span class="text-primary"  id="text">August 2019 - February 2023</span></div>
+            </div>
+            
+        </div>
+
+
+        <!-- Skills-->
+
+        <div class="page d-flex justify-content-center flex-column text-white" id="skills">
+            <h2 class="m-5 text-center" id="titleSection">Skills</h2>    
+            <div class="m-3 d-flex flex-column justify-content-center align-items-center" id="rowSkills">
+                <div class="subheading mb-3">Programming Languages & Tools</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-java"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-laravel"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-php"></i></li>
+                    <li class="list-inline-item"><i class="fas fa-database"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-bootstrap"></i></li>
+                    <li class="list-inline-item">C#</li>
+                    <li class="list-inline-item">ASPClassic</li>
+                </ul>
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Database Design
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Front End Engineer
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Back End Engineer
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Cross Functional Teams
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Waterfall Method & Agile
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <hr class="m-0" />
+
+        <div class="page d-flex justify-content-center flex-column text-dark" id="interest&projects">
+            <h2 class="m-5 text-center" id="titleSection">Interest&Projects</h2>    
+            <div class="container-fluid">
+                <h2 id="titlePage">Interests</h2>
+                <p  id="text">My favorite part of technology is making website. In Website, you can practice your imagination to make some problems can handle in on one website based application. That's why I like web programming but I still far from that. I need to enrich my skills in World of Technology and want to advance my programming knowledge.
+                   Beside of that, I like making some system using Database Design which I learned it from Bina Nusantara University. I like to query and study about Data.</p>
+            </div>
+            <div class="container-fluid">
+                <h2 id="titlePage">Projects</h2>
+                <ul class="fa-ul mb-0 ">
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark" href="https://datastudio.google.com/reporting/5d21b18d-b9c0-4ff6-aa37-f847bf72598b" style="text-decoration: none;" target="_blank">                        Analysis Data Jumlah Penduduk Berdasarkan Agama Per Kelurahan Tahun 2020 using Google Data Studio</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark" href="https://adryansucipto.github.io/Ybike.git.io/" target="_blank">Ybike Website Only html, css, and javascript</a>                       
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark" href="https://www.figma.com/proto/AyjCFchTWKRs4PfUGIWDg7/PWNI?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=13%3A2&node-id=13%3A2" target="_blank">Prototype PWNI Application File Manager using Figma</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark" href="https://www.figma.com/proto/AQIfGECgZSARBiOFcnfMaz/Tembak-Jenggo?node-id=0%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=0%3A3" target="_blank">Prototype Tembak Jenggo Desktop Game using Figma</a>   
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark" href="https://adryansucipto.github.io/ToDoList.git.io/" target="_blank">To Do List Website only html, css, and javascript</a>
+                        
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a  id="text" class="text-dark"  href="https://docs.google.com/document/d/1vhkKzW3-sXVvVf7VY1Oowai-mKJcrvQ5/edit?usp=sharing&ouid=104363649277740221200&rtpof=true&sd=true" target="_blank">Research Effectiveness of Using Online Meeting Application on Daily Activity</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <p id="text">ECommerce Store Website Application using PHP</p>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a id="text" class="text-dark"  href="https://adryansucipto.github.io/RAnalytics/" target="_blank">Project R analytics using R</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <p id="text">Recipia Website Application Using Laravel Framework</p>
+                        
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <p id="text">MbWekCenter Website Application Using Laravel Framework</p>
+                        
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa-solid fa-circle"></i></span>
+                        <a id="text" class="text-dark" href="https://appgallery.huawei.com/app/C105298981" target="_blank">                        GadgetCheck Mobile Application Using Android Studio and Java</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-end align-items-center m-4">
+                <p class="p-3 mb-0">For Detail Information, you can look my previous Website by click this button</p>
+                <a class="btn btn-primary" href="https://adryansucipto.github.io/AdryanSucipto.git.io/" target="_blank"><i class="fa-solid fa-info"></i> Detail Projects</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/script.js"></script>
+</body>
 </html>

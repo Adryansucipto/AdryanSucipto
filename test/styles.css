@@ -1,0 +1,55 @@
+body {
+  height: 3000px; /* Set a height larger than the viewport for scrolling */
+}
+
+.page {
+  height: 100vh; /* Set each page height to the viewport height */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  transition: color 0.5s;
+}
+
+.nav-scroll {
+  color: red !important; /* Color to apply on scroll */
+}
+
+.logo-scroll {
+  filter: invert(100%); /* Apply invert filter to the logo on scroll */
+}
+
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.animated-text {
+  overflow: hidden; /* Hide overflowing characters */
+  border-right: .15em solid orange; /* Add blinking cursor effect */
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 0 auto; /* Center the text horizontally */
+  letter-spacing: .15em; /* Add space between letters */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
