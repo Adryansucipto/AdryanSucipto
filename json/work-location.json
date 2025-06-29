@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Software Engineer",
+      "start-date": "2025-01-01",
+      "end-date": null,
+      "company": "PT Bank Sinarmas Tbk",
+      "status": "Full time"
+    },
+    {
+      "id": 2,
+      "name": "Software Developer",
+      "start-date": "2024-01-01",
+      "end-date": "2024-12-31",
+      "company": "PT Bank Sinarmas Tbk",
+      "status": "Full time"
+    },
+    {
+      "id": 3,
+      "name": "Programmer",
+      "start-date": "2023-05-01",
+      "end-date": "2024-05-01",
+      "company": "PT Bank Sinarmas Tbk",
+      "status": "Full time"
+    },
+    {
+      "id": 4,
+      "name": "Junior Developer",
+      "start-date": "2022-11-01",
+      "end-date": "2023-04-30",
+      "company": "PT Bank Sinarmas Tbk",
+      "status": "Contract"
+    },
+    {
+      "id": 5,
+      "name": "Programmer",
+      "start-date": "2022-03-01",
+      "end-date": "2023-02-28",
+      "company": "PT Bank Sinarmas Tbk",
+      "status": "Internship"
+    }
+  ]
+}
